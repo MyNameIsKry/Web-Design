@@ -8,41 +8,56 @@
     <title>Home Stay</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-lg fixed-top py-3">
-            <div class="container">
-              <a class="navbar-brand d-flex align-items-center" href="#">
-                <i class="fas fa-home text-success me-2 fs-4"></i>
-                <span class="fw-bold text-success fs-5">Home Stay</span>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-light bg-white shadow-lg fixed-top py-3">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <i class="fas fa-home text-success me-2 fs-4"></i>
+          <span class="fw-bold text-success fs-5">Home Stay</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <svg class="text-success fs-4" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+          </svg>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto gap-4 align-items-center">
+            <li class="nav-item">
+              <a class="nav-link text-success" href="#">Home</a>
+            </li>
+  
+            <!-- Rooms dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#amenities" id="roomsDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Rooms
               </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <svg class="text-success fs-4" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
-                </svg>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ms-auto gap-4 align-items-center">
-                  <li class="nav-item">
-                    <a class="nav-link text-success" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-dark" href="#rooms">Services</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-dark" href="#amenities">Rooms</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-dark" href="#contact">Contact</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="btn btn-success text-white ms-2 px-4 py-2" href="#book">Login</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>      
-    </header>
+              <ul class="dropdown-menu" aria-labelledby="roomsDropdown">
+                <li><a class="dropdown-item nav-link" href="#single-room">Quận 10</a></li>
+                <li><a class="dropdown-item nav-link" href="#double-room">Bình Thạnh</a></li>
+                <li><a class="dropdown-item nav-link" href="#suite">Phú Nhuận</a></li>
+              </ul>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+  
+            <li class="nav-item">
+              <a class="btn btn-success text-white ms-2 px-4 py-2" href="#book">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js" integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+" crossorigin="anonymous"></script>
