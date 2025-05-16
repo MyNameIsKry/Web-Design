@@ -67,7 +67,7 @@ header > nav a.nav-link:hover {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(8px);
+    transform: translateY(10px);
   }
 }
 
