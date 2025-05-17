@@ -36,6 +36,8 @@ header > nav a.nav-link:hover {
     }
   }
 
+/* Hero ======================================================*/*/
+
 .hero-section {
   position: relative;
   height: 90vh;
@@ -76,4 +78,27 @@ header > nav a.nav-link:hover {
     bottom: 50px;
     left: 50%;
     z-index: 10;
+}
+
+/*Services ======================================================*/
+
+.service-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    background-color: #d4edda; 
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.service-icon i {
+  color: #198754;
+  font-size: 32px;
+}
+
+.service-icon:hover {
+  transform: scale(1.15);
+  cursor: pointer;
 }

@@ -1,11 +1,19 @@
 {
     "about-us-section": {
-        "title": "Chúng tôi là ai?",
+        "title": "Về chúng tôi",
+        "title_1": "Chào mừng đến với Home Stay",
+        "title_2": "Thoải mái, sang trọng và thư giãn",
+        "sub_title": "Chúng tôi là ai?",
         "intro_1": "Chào mừng đến với Home Stay - được thành lập vào năm 2024, chúng tôi mang đến không gian ấm cúng, tối giản như chính ngôi nhà của bạn.",
         "intro_2": "Homestay của chúng tôi được thiết kế để mang lại sự thoải mái như ở nhà trong khi vẫn cho bạn đắm chìm trong vẻ đẹp của khung cảnh xung quanh. Mỗi không gian đều được chọn lọc kỹ lưỡng để mang lại sự thư giãn và phục hồi năng lượng.",
         "section1_title": "Tối giản & Thư giãn",
         "section2_title": "Tiện nghi & Thoải mái",
         "section3_title": "Gần gũi với thiên nhiên",
         "section4_title": "Hãy đến và trải nghiệm"
+    },
+    "service-section": {
+        "title": "Trải nghiệm",
+        "title_1": "Dịch vụ của chúng tôi",
+        "title_2": "Mọi thứ bạn cần đều có"
     }
 }

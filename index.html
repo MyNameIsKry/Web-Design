@@ -92,15 +92,15 @@
     <!-- About us Section -->
     <section id="about" class="row mt-5 pt-5">
       <div class="text-center mb-5">
-        <h2 class="fs-5 text-success">About Us</h2>
-        <h2 class="fs-1 fw-bold">Welcome to Home Stay</h2>
-        <p class="text-black-50">Comfortable, luxury and relax</p>
+        <h2 data-i18n="about-us-section.title" class="fs-5 text-success"></h2>
+        <h2 data-i18n="about-us-section.title_1" class="fs-1 fw-bold"></h2>
+        <p data-i18n="about-us-section.title_2" class="text-black-50"></p>
       </div>
       <div class="col-12 col-md-5 mb-4 mb-md-0">
         <img src="./public/CN.BinhThanh/No.17/487129274_1072001861611750_1449984763391882057_n.jpg" alt="About Us" class="img-fluid rounded">
       </div>
       <div class="col-12 col-md-7">
-        <h3 data-i18n="about-us-section.title" class="mb-4"></h3>
+        <h3 data-i18n="about-us-section.sub_title" class="mb-4"></h3>
         <p data-i18n="about-us-section.intro_1" class="text-black-50"></p>
         <p data-i18n="about-us-section.intro_2" class="text-black-50"></p>
         <div class="container-fluid p-0 mt-5">
@@ -108,21 +108,21 @@
             <div class="col-12 col-md-6">
               <div class="d-flex align-items-center mb-3">
                 <i class="fa-solid fa-spray-can-sparkles text-success fs-4 me-2"></i>                
-                <span data-i18n="about-us-section.section1_title" class="fw-semibold"></span>
+                <span data-i18n="about-us-section.section1_title"></span>
               </div>
               <div class="d-flex align-items-center mb-3">
                 <i class="fa-solid fa-bed text-success fs-4 me-2"></i>
-                <span data-i18n="about-us-section.section2_title" class="fw-semibold"></span>
+                <span data-i18n="about-us-section.section2_title"></span>
               </div>
             </div>
             <div class="col-12 col-md-6">
               <div class="d-flex align-items-center mb-3">
                 <i class="fas fa-leaf text-success fs-4 me-2"></i>
-                <span data-i18n="about-us-section.section3_title" class="fw-semibold"></span>
+                <span data-i18n="about-us-section.section3_title"></span>
               </div>
               <div class="d-flex align-items-center mb-3">
                 <i class="fas fa-map-marked-alt text-success fs-4 me-2"></i>
-                <span data-i18n="about-us-section.section4_title" class="fw-semibold"></span>
+                <span data-i18n="about-us-section.section4_title"></span>
               </div>
             </div>
           </div>
@@ -133,22 +133,70 @@
 
     <!-- Services Section -->
     <section id="services" class="pt-5 mt-5">
-      <h2 class="text-center mb-4">Our Services</h2>
+      <div class="text-center mb-5">
+        <h2 data-i18n="service-section.title" class="fs-5 text-success"></h2>
+        <h2 data-i18n="service-section.title_1" class="fs-1 fw-bold"></h2>
+        <p data-i18n="service-section.title_2" class="text-black-50"></p>
+      </div>
       <div class="row">
-        <div class="col-md-4 text-center mb-4">
-          <i class="fa-solid fa-bed fa-3x text-success"></i>
+        <div class="col-md-3 text-center mb-4">
+          <div class="service-icon">
+            <i class="fa-solid fa-bed"></i>
+          </div>
           <h3 class="mt-3">Comfortable Rooms</h3>
           <p>Enjoy a restful night in our well-appointed rooms.</p>
         </div>
-        <div class="col-md-4 text-center mb-4">
-          <i class="fa-solid fa-utensils fa-3x text-success"></i>
+        <div class="col-md-3 text-center mb-4">
+          <div class="service-icon">
+            <i class="fa-solid fa-utensils"></i>
+          </div>
           <h3 class="mt-3">Delicious Meals</h3>
           <p>Savor local and international cuisine prepared by our chefs.</p>
         </div>
-        <div class="col-md-4 text-center mb-4">
-          <i class="fa-solid fa-spa fa-3x text-success"></i>
+        <div class="col-md-3 text-center mb-4">
+          <div class="service-icon">
+            <i class="fa-solid fa-spa"></i>
+          </div>
           <h3 class="mt-3">Relaxation & Spa</h3>
           <p>Unwind with our spa services and wellness programs.</p>
+        </div>
+        <div class="col-md-3 text-center mb-4">
+          <div class="service-icon">
+            <i class="fa-solid fa-mountain-sun"></i>
+          </div>
+          <h3 class="mt-3">Nature Retreats</h3>
+          <p>Reconnect with nature in serene surroundings.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3 text-center mb-4">
+          <div class="service-icon">
+            <i class="fa-solid fa-bed"></i>
+          </div>
+          <h3 class="mt-3">Comfortable Rooms</h3>
+          <p>Enjoy a restful night in our well-appointed rooms.</p>
+        </div>
+        <div class="col-md-3 text-center mb-4">
+          <div class="service-icon">
+            <i class="fa-solid fa-utensils"></i>
+          </div>
+          <h3 class="mt-3">Delicious Meals</h3>
+          <p>Savor local and international cuisine prepared by our chefs.</p>
+        </div>
+        <div class="col-md-3 text-center mb-4">
+          <div class="service-icon">
+            <i class="fa-solid fa-spa"></i>
+          </div>
+          <h3 class="mt-3">Relaxation & Spa</h3>
+          <p>Unwind with our spa services and wellness programs.</p>
+        </div>
+        <div class="col-md-3 text-center mb-4">
+          <div class="service-icon">
+            <i class="fa-solid fa-mountain-sun"></i>
+          </div>
+          <h3 class="mt-3">Nature Retreats</h3>
+          <p>Reconnect with nature in serene surroundings.</p>
         </div>
       </div>
     </section>
