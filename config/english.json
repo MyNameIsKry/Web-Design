@@ -14,6 +14,22 @@
     "service-section": {
         "title": "Experience",
         "title_1": "Our Services",
-        "title_2": "Everything you need is here"
+        "title_2": "Everything you need is here",
+        "service_title_1": "",
+        "service_content_1": "",
+        "service_title_2": "",
+        "service_content_2": "",
+        "service_title_3": "",
+        "service_content_3": "",
+        "service_title_4": "",
+        "service_content_4": "",
+        "service_title_5": "",
+        "service_content_5": "",
+        "service_title_6": "",
+        "service_content_6": "",
+        "service_title_7": "",
+        "service_content_7": "",
+        "service_title_8": "",
+        "service_content_8": ""
     }
 }

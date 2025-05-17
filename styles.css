@@ -102,3 +102,7 @@ header > nav a.nav-link:hover {
   transform: scale(1.15);
   cursor: pointer;
 }
+
+#services h3 {
+  margin-top: 10px;
+}
