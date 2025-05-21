@@ -36,5 +36,10 @@
         "service_content_7": "Secure parking area",
         "service_title_8": "Restaurant",
         "service_content_8": "Local & international cuisine"
+    },
+    "gallery-section": {
+        "title": "Moments",
+        "title_1": "Our Gallery",
+        "title_2": "Explore our beautiful spaces"
     }
 }

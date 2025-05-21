@@ -107,3 +107,28 @@ header > nav a.nav-link:hover {
   margin-top: 10px;
   font-size: larger;
 }
+
+/* Gallery ==========================================================*/
+
+.room-image {
+  transition: transform 0.3s ease;
+  display: block;
+  width: 100%;
+  height: auto;
+  will-change: transform;
+  cursor: pointer;
+}
+
+.room-image:hover {
+  transform: scale(1.1);
+}
+
+.img-wrapper {
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+.pagination {
+  --bs-pagination-active-bg: var(--bs-success);
+}
