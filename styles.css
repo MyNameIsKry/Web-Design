@@ -168,3 +168,68 @@ footer i.fa-tiktok {
 #feedback i.fa-star {
   color: yellow;
 }
+
+/* Testimonial Cards Styles */
+.testimonial-card {
+  transition: all 0.3s ease;
+  height: 100%;
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.testimonial-card .testimonial-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  #feedback {
+    padding: 60px 0 !important;
+  }
+  
+  .testimonial-card {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  #feedback {
+    padding: 40px 0 !important;
+  }
+}
+
+#feedback .carousel-inner {
+  height: 400px;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  #feedback .carousel-inner {
+    height: auto;
+    min-height: 500px;
+  }
+  
+  .testimonial-card {
+    height: 250px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
+  
+  .testimonial-card {
+    height: 280px;
+  }
+}

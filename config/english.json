@@ -41,5 +41,9 @@
         "title": "Moments",
         "title_1": "Our Gallery",
         "title_2": "Explore our beautiful spaces"
+    },
+    "feedback-section": {
+        "title": "Feedback",
+        "title_1": "What our guests say"
     }
 }
