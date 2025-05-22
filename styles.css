@@ -147,3 +147,24 @@ footer i.fa-tiktok {
   display: inline-block;
 }
 
+/* Feedback ==========================================================*/
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.backdrop-blur {
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+#feedback h5 {
+  color: white;
+}
+
+#feedback i.fa-star {
+  color: yellow;
+}
