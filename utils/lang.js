@@ -1,4 +1,4 @@
-let currentLang = "vie";
+let currentLang = getLocalStorage() || "vie";
 
 function loadLanguage(langCode) {
   const filePath = langCode === 'vie' ? '../lang/vietnamese.json' : '../lang/english.json';
@@ -10,7 +10,6 @@ function loadLanguage(langCode) {
         const path = el.getAttribute('data-i18n');
         const keys = path.split('.');
         let value = data;
-
         
         for (const key of keys) {
           value = value?.[key];
@@ -22,12 +21,17 @@ function loadLanguage(langCode) {
     });
 }
 
-
-loadLanguage(currentLang);
-
 function updateLangDisplay() {
   document.getElementById("langText").textContent =
     currentLang === "vie" ? "VIE" : "ENG";
+}
+
+function updateLocalStorage(lang) {
+  localStorage.setItem("lang", lang);
+}
+
+function getLocalStorage() {
+  return localStorage.getItem("lang");
 }
 
 document.querySelectorAll(".dropdown-item").forEach(item => {
@@ -36,8 +40,12 @@ document.querySelectorAll(".dropdown-item").forEach(item => {
     const selectedLang = item.getAttribute("data-lang");
     if (selectedLang && selectedLang !== currentLang) {
       currentLang = selectedLang;
+      updateLocalStorage(currentLang); 
       loadLanguage(currentLang);
       updateLangDisplay();
     }
   });
 });
+
+loadLanguage(currentLang);
+updateLangDisplay();
