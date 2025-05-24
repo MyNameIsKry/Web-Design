@@ -1,7 +1,7 @@
 let currentLang = "vie";
 
 function loadLanguage(langCode) {
-  const filePath = langCode === 'vie' ? '../config/vietnamese.json' : '../config/english.json';
+  const filePath = langCode === 'vie' ? '../lang/vietnamese.json' : '../lang/english.json';
   
   fetch(filePath)
     .then(res => res.json())
