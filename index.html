@@ -58,10 +58,20 @@
               <a class="btn btn-success text-white px-4 py-2 fw-medium" href="#book" id="login-btn">Login</a>
             </li>
           </ul>
-          <button id="langToggle" class="btn btn-outline btn-info px-4 text-white" style="margin-left: 12px;">
-            ENG
-          </button>
-        </div>
+          <ul class="navbar-nav ms-4">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle fw-medium" href="#" id="languageDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-globe text-success fs-5"></i>
+                <span id="langText" class="ms-1">VIE</span>
+              </a>
+
+              <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                <li><a class="dropdown-item" href="#" data-lang="eng">English</a></li>
+                <li><a class="dropdown-item" href="#" data-lang="vie">Vietnamese</a></li>
+              </ul>
+            </li>
+          </ul>
       </div>
     </nav>
   </header>

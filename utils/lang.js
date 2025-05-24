@@ -1,15 +1,5 @@
 let currentLang = "vie";
 
-const elements = [
-  "title",
-  "intro",
-  "intro_1",
-  "section1_title",
-  "section2_title",
-  "section3_title",
-  "section4_title",
-];
-
 function loadLanguage(langCode) {
   const filePath = langCode === 'vie' ? '../config/vietnamese.json' : '../config/english.json';
   
@@ -35,9 +25,19 @@ function loadLanguage(langCode) {
 
 loadLanguage(currentLang);
 
-document.getElementById("langToggle").addEventListener("click", () => {
-  currentLang = currentLang === "vie" ? "eng" : "vie";
-  loadLanguage(currentLang);
-  document.getElementById("langToggle").textContent =
-    currentLang === "vie" ? "ENG" : "VIE";
+function updateLangDisplay() {
+  document.getElementById("langText").textContent =
+    currentLang === "vie" ? "VIE" : "ENG";
+}
+
+document.querySelectorAll(".dropdown-item").forEach(item => {
+  item.addEventListener("click", (e) => {
+    e.preventDefault();
+    const selectedLang = item.getAttribute("data-lang");
+    if (selectedLang && selectedLang !== currentLang) {
+      currentLang = selectedLang;
+      loadLanguage(currentLang);
+      updateLangDisplay();
+    }
+  });
 });
