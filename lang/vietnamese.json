@@ -1,4 +1,15 @@
 {
+    "header": {
+        "home": "Trang chủ",
+        "rooms": "Phòng",
+        "services": "Dịch vụ",
+        "gallery": "Thư viện ảnh",
+        "login": "Đăng nhập"
+    },
+    "hero": {
+        "title": "Ngôi nhà của bạn, nơi xa nhà. Trải nghiệm sự thoải mái và sang trọng.",
+        "explore_rooms": "Khám phá phòng"
+    },
     "about-us-section": {
         "title": "Về chúng tôi",
         "title_1": "Chào mừng đến với Home Stay",

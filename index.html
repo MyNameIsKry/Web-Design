@@ -30,15 +30,13 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ms-auto align-items-start align-items-md-center gap-2 gap-md-4">
             <li class="nav-item">
-              <a class="nav-link text-success fw-medium" href="#">Home</a>
+              <a class="nav-link text-success fw-medium" href="#" data-i18n="header.home"></a>
             </li>
 
             <!-- Rooms dropdown -->
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle fw-medium" href="#" id="roomsDropdown" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                Rooms
-              </a>
+                data-bs-toggle="dropdown" aria-expanded="false" data-i18n="header.rooms"></a>
               <ul class="dropdown-menu" aria-labelledby="roomsDropdown">
                 <li><a class="dropdown-item" href="#single-room">Quận 10</a></li>
                 <li><a class="dropdown-item" href="#double-room">Bình Thạnh</a></li>
@@ -47,15 +45,15 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link fw-medium" href="#services">Services</a>
+              <a class="nav-link fw-medium" href="#services" data-i18n="header.services"></a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link fw-medium" href="#gallery">Gallery</a>
+              <a class="nav-link fw-medium" href="#gallery" data-i18n="header.gallery"></a>
             </li>
 
             <li class="nav-item" id="user-nav">
-              <a class="btn btn-success text-white px-4 py-2 fw-medium" href="/auth/login.html" id="login-btn">Login</a>
+              <a class="btn btn-success text-white px-4 py-2 fw-medium" href="/auth/login.html" id="login-btn" data-i18n="header.login"></a>
             </li>
           </ul>
           <ul class="navbar-nav ms-4">
@@ -101,8 +99,8 @@
 
     <div class="hero-text text-center text-white px-3 position-absolute">
       <h1 class="display-4 fw-bold text-white text-shadow">Home Stay</h1>
-      <p class="text-white text-shadow fs-4">Your home away from home. Experience comfort and luxury.</p>
-      <a href="#rooms" class="btn btn-success">Explore Rooms</a>
+      <p class="text-white text-shadow fs-4" data-i18n="hero.title"></p>
+      <a href="#rooms" class="btn btn-success" data-i18n="hero.explore_rooms"></a>
     </div>
     <div class="scroll-indicator position-absolute">
       <i class="fa-solid fa-arrow-down text-white fs-3"></i>
@@ -495,7 +493,7 @@
         });
     } else {
         userNav.innerHTML = `
-            <a class="btn btn-success text-white px-4 py-2 fw-medium" href="/auth/login.html" id="login-btn">Login</a>
+            <a class="btn btn-success text-white px-4 py-2 fw-medium" href="/auth/login.html" id="login-btn" data-i18n="header.login"></a>
         `;
     }
 </script>

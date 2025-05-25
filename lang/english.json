@@ -1,4 +1,15 @@
 {
+    "header": {
+        "home": "Home",
+        "rooms": "Rooms",
+        "services": "Services",
+        "gallery": "Gallery",
+        "login": "Login"
+    },
+    "hero": {
+        "title": "Your home away from home. Experience comfort and luxury.",
+        "explore_rooms": "Explore Rooms"
+    },
     "about-us-section": {
         "title": "About Us",
         "title_1": "Welcome to Home Stay",
