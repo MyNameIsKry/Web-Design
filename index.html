@@ -408,7 +408,7 @@
       <div class="row g-4">
         <div class="col-12 col-md-4 text-center text-md-start">
           <h5 class="mb-3">Home Stay</h5>
-          <p class="text-muted">Your home away from home. Experience comfort and luxury.</p>
+          <p class="text-muted" data-i18n="hero.title"></p>
           <div class="d-flex gap-3 mt-4 justify-content-center justify-content-md-start">
             <a href="#" class="text-muted"><i class="fab fa-facebook fs-3 text-primary"></i></a>
             <a href="#" class="text-muted"><i class="fab fa-instagram fs-3"></i></a>
@@ -418,7 +418,7 @@
         </div>
         
         <div class="col-12 col-md-4 text-center text-md-start">
-          <h5 class="mb-3">Contact Info</h5>
+          <h5 class="mb-3" data-i18n="footer.contact"></h5>
           <ul class="list-unstyled text-muted mb-0">
             <li class="d-flex mb-2 align-items-start justify-content-center justify-content-md-start">
               <i class="fas fa-map-marker-alt me-2 mt-1"></i>
@@ -446,11 +446,10 @@
       <div class="row">
         <div class="col-12">
           <div class="d-flex flex-column flex-md-row justify-content-between align-items-center text-center text-md-start">
-            <p class="text-muted mb-3 mb-md-0">© 2025 Serene Haven Homestay. All rights reserved.</p>
+            <p class="text-muted mb-3 mb-md-0" data-i18n="footer.copyright"></p>
             <div class="d-flex gap-3 flex-wrap justify-content-center">
               <a href="#" class="text-muted text-decoration-none">Privacy Policy</a>
               <a href="#" class="text-muted text-decoration-none">Terms of Service</a>
-              <a href="#" class="text-muted text-decoration-none">Sitemap</a>
             </div>
           </div>
         </div>
@@ -475,10 +474,10 @@
                 <i class="fa-regular fa-circle-user text-success fs-3"></i><span class="ms-2 d-none d-md-inline">${userInfo.name}</span>
               </a>
               <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
-                <li><a class="dropdown-item" href="#">Hồ sơ</a></li>
-                <li><a class="dropdown-item" href="#">Cài đặt</a></li>
+                <li><a class="dropdown-item" href="#" data-i18n="user.profile"></a></li>
+                <li><a class="dropdown-item" href="#" data-i18n="user.settings"></a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#" id="logoutBtn">Đăng xuất</a></li>
+                <li><a class="dropdown-item" href="#" id="logoutBtn" data-i18n="user.logout"></a></li>
               </ul>
             </div>
         `;
@@ -500,11 +499,11 @@
                 <i class="fa-regular fa-circle-user text-success fs-3"></i><span class="ms-2 d-none d-md-inline">${userInfo.name}</span>
               </a>
               <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
-                <li><a class="dropdown-item" href="#">Hồ sơ</a></li>
-                <li><a class="dropdown-item" href="#">Quản lý</a></li>
-                <li><a class="dropdown-item" href="#">Cài đặt</a></li>
+                <li><a class="dropdown-item" href="#" data-i18n="user.profile"></a></li>
+                <li><a class="dropdown-item" href="#" data-i18n="user.manage"></a></li>
+                <li><a class="dropdown-item" href="#" data-i18n="user.settings"></a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#" id="logoutBtn">Đăng xuất</a></li>
+                <li><a class="dropdown-item" href="#" id="logoutBtn" data-i18n="user.logout"></a></li>
               </ul>
             </div>
         `;

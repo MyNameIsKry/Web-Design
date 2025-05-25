@@ -56,5 +56,15 @@
     "feedback-section": {
         "title": "Đánh giá",
         "title_1": "Khách hàng nói gì"
+    },
+    "user": {
+        "profile": "Hồ sơ",
+        "settings": "Cài đặt",
+        "manage": "Quản lý",
+        "logout": "Đăng xuất"
+    },
+    "footer": {
+        "contact": "Thông tin liên hệ",
+        "copyright": "© 2024 Home Stay. Bảo lưu mọi quyền."
     }
 }

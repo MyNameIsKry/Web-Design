@@ -56,5 +56,15 @@
     "feedback-section": {
         "title": "Feedback",
         "title_1": "What our guests say"
+    },
+    "user": {
+        "profile": "Profile",
+        "settings": "Settings",
+        "manage": "Manage",
+        "logout": "Logout"
+    },
+    "footer": {
+        "contact": "Contact Info",
+        "copyright": "© 2024 Home Stay. All rights reserved."
     }
 }
