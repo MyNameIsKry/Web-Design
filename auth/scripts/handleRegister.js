@@ -6,6 +6,7 @@ registerForm.addEventListener("submit", function (e) {
     const email = document.getElementById("email").value;
     const password = document.getElementById("password").value;
     const confirmPassword = document.getElementById("confirmPassword").value;
+    const name = document.getElementById("name").value;
 
     const users = JSON.parse(localStorage.getItem("users")) || [];
     const userExists = users.some(user => user.email === email);
@@ -23,6 +24,7 @@ registerForm.addEventListener("submit", function (e) {
     const newUser = {
         email,
         password,
+        name,
         registeredAt: new Date().toISOString(),
     };
 
