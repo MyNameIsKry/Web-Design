@@ -25,6 +25,7 @@ registerForm.addEventListener("submit", function (e) {
         email,
         password,
         name,
+        role: "user",
         registeredAt: new Date().toISOString(),
     };
 

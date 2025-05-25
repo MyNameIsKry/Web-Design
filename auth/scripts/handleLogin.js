@@ -1,5 +1,10 @@
 const loginForm = document.getElementById("loginForm");
 
+const adminAccount = {
+    email: "admin@gmail.com",
+    password: "admin123",
+};
+
 loginForm.addEventListener("submit", function (e) {
     e.preventDefault(); 
 
@@ -13,6 +18,10 @@ loginForm.addEventListener("submit", function (e) {
     if (!user) {
         showToast("Email hoặc mật khẩu không đúng!", "danger");
         return;
+    }
+
+    if (user.email === adminAccount.email && user.password === adminAccount.password) {
+        user.role = "admin";
     }
 
     if (remember) {

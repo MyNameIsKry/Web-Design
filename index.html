@@ -466,8 +466,8 @@
     const userInfo = JSON.parse(localStorage.getItem('loggedInUser')) || JSON.parse(sessionStorage.getItem('loggedInUser'));
     const userNav = document.getElementById('user-nav');
     const loginBtn = document.getElementById('login-btn');
-    
-    if (userInfo) {
+
+    if (userInfo.role == 'user') {
         userNav.innerHTML = `
             <div class="dropdown">
               <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="userDropdown" role="button"
@@ -491,7 +491,34 @@
                 
             window.location.reload();
         });
-    } else {
+    } 
+    else if (userInfo.role == 'admin') {
+        userNav.innerHTML = `
+            <div class="dropdown">
+              <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="userDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-regular fa-circle-user text-success fs-3"></i><span class="ms-2 d-none d-md-inline">${userInfo.name}</span>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+                <li><a class="dropdown-item" href="#">Hồ sơ</a></li>
+                <li><a class="dropdown-item" href="#">Quản lý</a></li>
+                <li><a class="dropdown-item" href="#">Cài đặt</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#" id="logoutBtn">Đăng xuất</a></li>
+              </ul>
+            </div>
+        `;
+
+      loginBtn.style.display = 'none';
+
+      logoutBtn.addEventListener('click', function () {
+          localStorage.removeItem('loggedInUser');
+          sessionStorage.removeItem('loggedInUser');
+              
+          window.location.reload();
+      });
+    }
+    else {
         userNav.innerHTML = `
             <a class="btn btn-success text-white px-4 py-2 fw-medium" href="/auth/login.html" id="login-btn" data-i18n="header.login"></a>
         `;
