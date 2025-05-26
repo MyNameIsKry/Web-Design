@@ -1,0 +1,204 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style_cacphong.css">
+  <title>Amazing Home</title>
+</head>
+
+
+<body>
+	<header>
+    <nav class="navbar navbar-expand-md navbar-light bg-white shadow-lg fixed-top py-2 d-flex justify-content-center align-items-center">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <span class="fw-bold text-success fs-5">Amazing Home</span>
+        </a>
+
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto align-items-start align-items-md-center gap-2 gap-md-4">
+            <li class="nav-item">
+              <a class="nav-link text-success fw-medium" href="#" data-i18n="header.home"></a>
+            </li>
+
+            <!-- Rooms dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle fw-medium" href="#" id="roomsDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false" data-i18n="header.rooms"></a>
+              <ul class="dropdown-menu" aria-labelledby="roomsDropdown">
+                <li><a class="dropdown-item" href="#single-room">Quận 10</a></li>
+                <li><a class="dropdown-item" href="#double-room">Bình Thạnh</a></li>
+                <li><a class="dropdown-item" href="#suite">Phú Nhuận</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link fw-medium" href="#services" data-i18n="header.services"></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link fw-medium" href="#gallery" data-i18n="header.gallery"></a>
+            </li>
+
+            <li class="nav-item" id="user-nav">
+              <a class="btn btn-success text-white px-4 py-2 fw-medium" href="/auth/login.html" id="login-btn" data-i18n="header.login"></a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ms-4">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle fw-medium" href="#" id="languageDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-globe text-success fs-5"></i>
+                <span id="langText" class="ms-1">VIE</span>
+              </a>
+
+              <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                <li><a class="dropdown-item" href="#" data-lang="eng">English</a></li>
+                <li><a class="dropdown-item" href="#" data-lang="vie">Vietnamese</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+	  </div>
+    </nav>
+  </header>
+	
+	
+  
+	
+	
+  <footer class="py-5 mt-5 bg-body-tertiary">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-12 col-md-4 text-center text-md-start">
+          <h5 class="mb-3">Amazing HomeStay</h5>
+          <p class="text-muted" data-i18n="hero.title"></p>
+          <div class="d-flex gap-3 mt-4 justify-content-center justify-content-md-start">
+            <a href="https://www.facebook.com/AmazingHome181/?locale=vi_VN" class="text-muted"><i class="fab fa-facebook fs-3 text-primary"></i></a>
+            <a href="https://www.instagram.com/amazinghome.sg/?hl=vi" class="text-muted"><i class="fab fa-instagram fs-3"></i></a>
+            <a href="#" class="text-muted"><i class="fab fa-x-twitter fs-3"></i></a>
+            <a href="https://www.tiktok.com/@amazing.home.saigon" class="text-muted"><i class="fab fa-tiktok fs-3"></i></a>
+          </div>
+        </div>
+        
+        <div class="col-12 col-md-4 text-center text-md-start">
+          <h5 class="mb-3" data-i18n="footer.contact"></h5>
+          <ul class="list-unstyled text-muted mb-0">
+            <li class="d-flex mb-2 align-items-start justify-content-center justify-content-md-start">
+              <i class="fas fa-map-marker-alt me-2 mt-1"></i>
+              <span>419/5 cách mạng tháng 8, quận 10</span>
+            </li>
+            <li class="d-flex mb-2 align-items-center justify-content-center justify-content-md-start">
+              <i class="fas fa-phone-alt me-2"></i>
+              <span>090 532 91 47
+</span>
+            </li>
+            <li class="d-flex align-items-center justify-content-center justify-content-md-start">
+              <i class="fas fa-envelope me-2"></i>
+              <span>amazinghomestay@gmail.com</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="ratio ratio-16x9">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.0672790781177!2d106.6260906748441!3d10.806159158644935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752be27d8b4f4d%3A0x92dcba2950430867!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBDw7RuZyBUaMawxqFuZyBUUC4gSOG7kyBDaMOtIE1pbmggKEhVSVQp!5e0!3m2!1svi!2s!4v1747813862848!5m2!1svi!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-100 h-100"></iframe>
+          </div>
+        </div>
+      </div>
+
+      <hr class="my-4">
+      <div class="row">
+        <div class="col-12">
+          <div class="d-flex flex-column flex-md-row justify-content-between align-items-center text-center text-md-start">
+            <p class="text-muted mb-3 mb-md-0" data-i18n="footer.copyright"></p>
+            <div class="d-flex gap-3 flex-wrap justify-content-center">
+              <a href="#" class="text-muted text-decoration-none">Privacy Policy</a>
+              <a href="#" class="text-muted text-decoration-none">Terms of Service</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+<script src="utils/lang.js"></script>
+<script src="utils/displayImageAndZoom.js"></script>
+<script>
+    const userInfo = JSON.parse(localStorage.getItem('loggedInUser')) || JSON.parse(sessionStorage.getItem('loggedInUser'));
+    const userNav = document.getElementById('user-nav');
+    const loginBtn = document.getElementById('login-btn');
+
+    if (userInfo.role == 'user') {
+        userNav.innerHTML = `
+            <div class="dropdown">
+              <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="userDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-regular fa-circle-user text-success fs-3"></i><span class="ms-2 d-none d-md-inline">${userInfo.name}</span>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+                <li><a class="dropdown-item" href="#" data-i18n="user.profile"></a></li>
+                <li><a class="dropdown-item" href="#" data-i18n="user.settings"></a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#" id="logoutBtn" data-i18n="user.logout"></a></li>
+              </ul>
+            </div>
+        `;
+
+        loginBtn.style.display = 'none';
+
+        logoutBtn.addEventListener('click', function () {
+            localStorage.removeItem('loggedInUser');
+            sessionStorage.removeItem('loggedInUser');
+                
+            window.location.reload();
+        });
+    } 
+    else if (userInfo.role == 'admin') {
+        userNav.innerHTML = `
+            <div class="dropdown">
+              <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="userDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-regular fa-circle-user text-success fs-3"></i><span class="ms-2 d-none d-md-inline">${userInfo.name}</span>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+                <li><a class="dropdown-item" href="#" data-i18n="user.profile"></a></li>
+                <li><a class="dropdown-item" href="#" data-i18n="user.manage"></a></li>
+                <li><a class="dropdown-item" href="#" data-i18n="user.settings"></a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#" id="logoutBtn" data-i18n="user.logout"></a></li>
+              </ul>
+            </div>
+        `;
+
+      loginBtn.style.display = 'none';
+
+      logoutBtn.addEventListener('click', function () {
+          localStorage.removeItem('loggedInUser');
+          sessionStorage.removeItem('loggedInUser');
+              
+          window.location.reload();
+      });
+    }
+    else {
+        userNav.innerHTML = `
+            <a class="btn btn-success text-white px-4 py-2 fw-medium" href="/auth/login.html" id="login-btn" data-i18n="header.login"></a>
+        `;
+    }
+</script>
+</html>
