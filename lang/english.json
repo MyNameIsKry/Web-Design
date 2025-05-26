@@ -12,10 +12,10 @@
     },
     "about-us-section": {
         "title": "About Us",
-        "title_1": "Welcome to Home Stay",
+        "title_1": "Welcome to Amazing Home",
         "title_2": "Comfortable, luxury and relax",
         "sub_title": "Who are we?",
-        "intro_1": "Welcome to Home Stay – founded in 2024, we offer a cozy, minimalist space that feels like home.",
+        "intro_1": "Welcome to Amazing Home – founded in 2024, we offer a cozy, minimalist space that feels like home.",
         "intro_2": "Our homestay is designed to provide all the comforts of home while immersing you in the beauty of the surrounding landscape. Each space is thoughtfully curated to promote relaxation and rejuvenation.",
         "section1_title": "Minimalist & Relaxation",
         "section2_title": "Comfort & Convenience",
@@ -65,6 +65,6 @@
     },
     "footer": {
         "contact": "Contact Info",
-        "copyright": "© 2024 Home Stay. All rights reserved."
+        "copyright": "© 2024 Amazing Home. All rights reserved."
     }
 }
