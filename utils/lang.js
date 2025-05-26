@@ -2,7 +2,6 @@ let currentLang = getLocalStorage() || "vie";
 
 function loadLanguage(langCode) {
   const filePath = langCode === 'vie' ? '../lang/vietnamese.json' : '../lang/english.json';
-  
   fetch(filePath)
     .then(res => res.json())
     .then(data => {
