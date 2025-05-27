@@ -33,7 +33,7 @@ function getLocalStorage() {
   return localStorage.getItem("lang");
 }
 
-document.querySelectorAll(".dropdown-item").forEach(item => {
+document.querySelectorAll(".dropdown-item lang").forEach(item => {
   item.addEventListener("click", (e) => {
     e.preventDefault();
     const selectedLang = item.getAttribute("data-lang");
