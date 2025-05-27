@@ -1,4 +1,13 @@
 {
+    "global": {
+        "booking_btn": "Book Now",
+        "booking_title": "Book Your Stay",
+        "booking_title_1": "Experience comfort and luxury",
+        "booking_title_2": "Fast and easy booking process",
+        "about_homestay_title": "Amazing Home",
+        "about_homestay_title_1": "Some videos about Amazing Home",
+        "about_homestay_title_2": "Luxury - Convenience - Comfort"
+    },
     "header": {
         "home": "Home",
         "rooms": "Rooms",
@@ -66,5 +75,17 @@
     "footer": {
         "contact": "Contact Info",
         "copyright": "© 2024 Amazing Home. All rights reserved."
+    },
+    "quan10": {
+        "address": "Address: 419/5 CMT8, District 10",
+        "price": "Price for 2 people: - 4 hours:"
+    },
+    "phunhuan": {
+        "address": "Address: 541/127 Huỳnh Văn Bánh, District Phú Nhuận",
+        "price": "Price for 2 people: - 4 hours:"
+    },
+    "binhthanh": {
+        "address": "Address: 442/17 Lê Quang Định, District Bình Thạnh",
+        "price": "Price for 2 people: - 4 hours:"
     }
 }
