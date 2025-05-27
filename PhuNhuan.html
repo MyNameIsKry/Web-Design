@@ -380,7 +380,7 @@
     const userNav = document.getElementById('user-nav');
     const loginBtn = document.getElementById('login-btn');
 
-    if (userInfo.role == 'user') {
+    if (userInfo && userInfo.role == 'user') {
         userNav.innerHTML = `
             <div class="dropdown">
               <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="userDropdown" role="button"
@@ -405,7 +405,7 @@
             window.location.reload();
         });
     } 
-    else if (userInfo.role == 'admin') {
+    else if (userInfo && userInfo.role == 'admin') {
         userNav.innerHTML = `
             <div class="dropdown">
               <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="userDropdown" role="button"
