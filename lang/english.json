@@ -87,5 +87,16 @@
     "binhthanh": {
         "address": "Address: 442/17 Lê Quang Định, District Bình Thạnh",
         "price": "Price for 2 people: - 4 hours:"
+    },
+    "booking_form": {
+        "title": "Book Your Room",
+        "room_name": "Room Name",
+        "fullname": "Full Name",
+        "telephone": "Telephone",
+        "ID": "citizen identification number",
+        "check_in_day": "Check-in Date",
+        "check_out_day": "Check-out Date",
+        "number_of_people": "Number of People",
+        "confirm": "Confirm Booking"
     }
 }

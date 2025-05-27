@@ -87,5 +87,16 @@
     "binhthanh": {
         "address": "442/17 Lê Quang Định, Quận Bình Thạnh",
         "price": "Mức giá cho 2 người: - 4 tiếng:"
+    },
+    "booking_form": {
+        "title": "Đặt phòng",
+        "room_name": "Tên phòng",
+        "fullname": "Họ và Tên",
+        "telephone": "Số điện thoại",
+        "ID": "Số CCCD",
+        "check_in_day": "Ngày nhận phòng",
+        "check_out_day": "Ngày trả phòng",
+        "number_of_people": "Số lượng người",
+        "confirm": "Xác nhận đặt"
     }
 }
