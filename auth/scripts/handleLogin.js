@@ -1,8 +1,8 @@
 const loginForm = document.getElementById("loginForm");
 
 const adminAccount = {
-    email: "admin@gmail.com",
-    password: "admin123",
+    email: "admin@gmail.com",   
+    password: "Admin123@",
 };
 
 loginForm.addEventListener("submit", function (e) {
