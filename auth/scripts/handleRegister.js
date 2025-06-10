@@ -20,15 +20,11 @@ const validatePassword = (password) => {
     const hasUpperCase = /[A-Z]/.test(password);
     const hasSpecialChar = /[!@#$%^&*(),.?":{}|<>]/.test(password);
 
-    if (password.length <= minLength) {
-        return 'Mật khẩu phải dài hơn 5 ký tự';
+    
+    if (!hasUpperCase || !hasSpecialChar || password.length <= minLength) {
+        return 'Mật khẩu phải chứa ít nhất 1 chữ hoa và 1 kí tự đặc biệt\nMật khẩu phải dài hơn 5 kí tự';
     }
-    if (!hasUpperCase) {
-        return 'Mật khẩu phải chứa ít nhất 1 chữ hoa';
-    }
-    if (!hasSpecialChar) {
-        return 'Mật khẩu phải chứa ít nhất 1 ký tự đặc biệt';
-    }
+
     return '';
 };
 
